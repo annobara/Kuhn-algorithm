@@ -1,0 +1,112 @@
+body{
+background-color: #d1def5;
+}
+p{
+  font-family: 'Alegreya Sans SC';
+  font-size: 23px;
+  margin-bottom: 5px;
+  
+}
+h1{
+  font-family: 'Alegreya Sans SC';
+  text-align: center;
+}
+.back{
+  background-color: #efeef5;
+  max-width: 600px;
+  max-height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  border-radius: 10%;
+  justify-content: center;
+}
+input{
+  width: 50px;
+  border-radius: 20%;
+  border-color: #ffffff;
+}
+textarea{
+  width: 300px;
+  height: 100px;
+  border-radius: 5%;
+  resize: none;
+}
+*::-webkit-scrollbar {
+  width: 12px;    
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(146, 140, 185, 0.628);
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(232, 168, 236); 
+  border-radius: 20px;
+}
+
+label{
+    color: #828282;
+    display: flex;
+    height: 40px;;
+    font-family: 'Alegreya Sans SC';;
+}
+label:hover{
+  color: #2e2d2d;
+}
+
+i{
+  margin-right: 10px;
+}
+
+.button {
+    background-image: linear-gradient(to right, #b298cf 0%, #5690f3 100%);
+    border: 0px solid #35269a;
+    border-radius: 35px;
+    font-weight: bold;
+    color: #f9f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.25s ease;
+    width: 600px;
+    position: relative;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-family: 'Alegreya Sans SC';
+    font-size: 30px;
+  }
+  .button:hover{
+    background-image: linear-gradient(to right, #7d6b92 0%, #596f97 100%);
+  }
+
+  .out{
+    max-height: 200px;
+    overflow: auto;
+    padding-left: 5%;
+    background-color: #ffffff63;
+    border-radius: 5%;
+  }
+
+  .err{
+    position: absolute;
+    text-align: justify;
+    color: #fff;
+    background-color: #ff2b4e;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    max-width: 300px;
+    max-height: 500px;
+    z-index: 10;
+    border-radius: 10%;
+    padding: 2%;
+  }
+
+  #file{
+    opacity: 0;
+  }

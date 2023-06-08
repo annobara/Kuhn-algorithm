@@ -1,0 +1,14 @@
+
+{% extends 'index.html' %}
+{% block button %}
+<button onclick="saveToFile()" id="save-button" class="button">Сохранить в файл</button>
+{% endblock %}
+{% block results %}
+    {% for i in range (res|length) %}
+    {% if res[i]!=-1 %}
+        <p>{{res[i]}} {{i}}</p>
+    {% endif %}
+    {% endfor %}
+{% endblock %}
+
+
